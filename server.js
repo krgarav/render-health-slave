@@ -18,7 +18,7 @@ app.get("/cronServer", (req, res) => {
 
 // Define your cron job
 
-cron.schedule('*/5 * * * *', () => {
+cron.schedule('* * * * *', () => {
   // This function runs every 30 seconds
   console.log('Running a task every 5 minute');
   // You can call an endpoint or perform a task here
