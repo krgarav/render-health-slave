@@ -23,7 +23,7 @@ cron.schedule('*/5 * * * *', () => {
   console.log('Running a task every 5 minute');
   // You can call an endpoint or perform a task here
   // Example: Call the /cronServer endpoint programmatically
-  axios.get('https://rent-management-api-1.onrender.com')
+  axios.get('https://rent-management-api-124l.onrender.com')
     .then(response => console.log(response.data))
     .catch(error => console.error('Error calling /cronServer:', error.message));
   //call master
